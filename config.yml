@@ -6,10 +6,10 @@
 # anchors  : [[0.57273, 0.677385], [1.87446, 2.06253], [3.33843, 5.47434], [7.88282, 3.52778], [9.77052, 9.16828]]
 # label_map: './dataset/coco/categories.txt'
 # Map indices to actual label names
-CATEGORIES = "./dataset/coco2017/categories.txt"
+label_map: "./dataset/coco2017/categories.txt"
 
 # # Path to anchors for specific dataset (using K-mean clustering)
-ANCHORS    = "./dataset/coco2017/anchors.txt"
+anchors  :    = "./dataset/coco2017/anchors.txt"
 
 ########################
 # Model configuration  #
